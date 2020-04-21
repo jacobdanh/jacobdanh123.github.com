@@ -1,0 +1,92 @@
+h1 {
+  position: absolute;
+  left: 480px;
+  top: 0px;
+  font-size: 60px;
+  font-family: Impact, fantasy;
+  text-shadow: 0 0 3px #FF0000, 0 0 8px #0000FF;
+}
+.nav-area {
+ float: right;
+ list-style: none;
+ margin-top: 70px;
+
+}
+.nav-area li {
+  display: inline-block;
+
+}
+
+.nav-area li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.jack img {
+  padding: 5px;
+  width: 380px;
+  position: relative;
+  top: 62px;
+  transform: rotate(90deg);
+  border-radius: 40%;
+  border-style: ridge;
+  border-width: 1px;
+}
+
+.me img {
+  position: absolute;
+  right: 10px;
+  top: 200px;
+  width: 300px;
+}
+
+.about-section {
+  padding: 60px;
+  text-align: center;
+  background-color: #ff306b;
+  top:0px;
+  height: 40px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  position: relative
+  padding: 20px;
+}
+
+.section {
+	position: absolute;
+  text-align: center;
+	width:390px;
+	top: 175px;
+	height: 450px;
+  background-color: white;
+  padding: 20px;
+  left: 520px;
+  opacity: 80%;
+}
+.meat {
+  position: fixed;
+  right: 0px;
+  width: 250px;
+  background-color: grey;
+  height: 2000px;
+  top: 0px;
+
+}
+.paragraph {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 390px;
+  background-color: black;
+  padding:10px;
+}
